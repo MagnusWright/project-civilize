@@ -18,7 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.kossler.projectcivilize.ExampleMod"
+      "net.kossler.projectcivilize.entity.EntityTesting"
+    ],
+    "client": [
+      "net.kossler.projectcivilize.entity.EntityTestingClient"
     ]
   },
   "mixins": [
